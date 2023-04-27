@@ -1,0 +1,19 @@
+{
+  "name": "papayabot",
+  "description": "",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+  },
+    "scripts": {
+    "model-create": "tensorflowjs_converter --input_format keras my_model.h5 my_model_json",
+    "deploy-commands": "node ./src/deploy-commands.js",
+    "run": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
