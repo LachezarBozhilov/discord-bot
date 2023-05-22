@@ -6,6 +6,9 @@
   "dependencies": {
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
+    "tesseract-ocr": "^1.0.0",
+    "tesseract.js": "^4.0.2",
+    "tesseract.js-core": "^2.2.0"
   },
     "scripts": {
     "model-create": "tensorflowjs_converter --input_format keras my_model.h5 my_model_json",
